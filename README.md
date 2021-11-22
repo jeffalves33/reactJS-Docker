@@ -42,14 +42,15 @@ e então execute-o para a rodar a partir do arquivo criado
 $ docker-compose up -d
 ```
 
-## Installing ########################################################
+## Installing
 
+Para executar o atual repositório em sua máquina (de preferência usar uma 
+distribuição Ubuntu/Debian) run os seguintes comandos:
 ```
 git clone https://github.com/jeffalves33/reactJS-Docker.git
 cd reactJS-Docker
 docker build -t react-image .
 docker run -d —name react-app react-image
-
 ```
 
 
