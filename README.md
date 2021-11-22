@@ -67,7 +67,10 @@ docker run -d —name react-app react-image
 
 ## Upcoming Updates
 
-Tratar de como o Docker faz permanecer o servidor no ar.
+* Tratar de como o Docker faz permanecer o servidor no ar;
+* mudar servidor para Nginx;
+* rotas;
+
 
 
 
