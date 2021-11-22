@@ -2,6 +2,19 @@
 
 Exemplo de aplicativo React.js para o ambiente Docker desenvolvida em uma máquina Ubuntu.
 
+### Prerequisites
+
+Certifique-se de já ter instalado o Docker Engine. Você não precisa instalar o Nginx (caso for usar desse servidor) ou o NPM, pois ambos são fornecidos pelas imagens do Docker.
+
+```
+$ docker -v
+Docker version 20.10.7, build 20.10.7-0ubuntu5~20.04.2
+```
+```
+$ docker-compose -v
+docker-compose version 1.29.2, build 5becea4c
+```
+
 ## Path
 Primeiramente precisamos criar nosso projeto React.js
 ```
@@ -27,20 +40,6 @@ e então execute-o para a rodar a partir do arquivo criado
 ```
 $ docker-compose up -d
 ```
-
-### Prerequisites
-
-Certifique-se de já ter instalado o Docker Engine. Você não precisa instalar o Nginx (caso for usar desse servidor) ou o NPM, pois ambos são fornecidos pelas imagens do Docker.
-
-```
-$ docker -v
-Docker version 20.10.7, build 20.10.7-0ubuntu5~20.04.2
-```
-```
-$ docker-compose -v
-docker-compose version 1.29.2, build 5becea4c
-```
-
 
 ### Installing ########################################################
 
